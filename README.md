@@ -1,6 +1,6 @@
 # Mini Projects
 
-These are small projects for python beginners.
+These are small projects for Python beginners where operations are carried out with the basics of programming and logic handling.
 
 ## 01 - Text Analyzer
 
