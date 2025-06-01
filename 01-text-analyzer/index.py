@@ -17,7 +17,7 @@ second_letter = input("\nEnter the second letter: ")
 third_letter = input("\nEnter the third letter: ")
 
 paragraphs = text.split(" ")
-oaragraph_secret = "python"
+paragraph_secret = "python"
 
 print("\n\n === RESULTS ===\n")
 
@@ -29,4 +29,4 @@ print("\nThe text has: ", len(paragraphs), "paragraphs")
 print("\nThe first letter is: ", text[0])
 print("\nThe last letter is: ", text[-1])
 print("\nThe reversed text is: ", text[::-1])
-print("\nIs the word \"python\" in the text?: ", oaragraph_secret in text.lower())
+print("\nIs the word \"python\" in the text?: ", paragraph_secret in text.lower())
