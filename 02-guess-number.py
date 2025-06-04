@@ -20,7 +20,6 @@ for i in range(oportunity):
     attempts += 1
     if numero < 1 or numero > 100:
         print("\nInvalid input, please enter a number between 1 and 100")
-        continue
     elif numero == random_number:
         print(f"\nCongratulations {nombre}, you guessed the number! in {attempts} attempts")
         exit()
