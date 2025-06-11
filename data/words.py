@@ -1,0 +1,22 @@
+words = [
+    "algoritmo",
+    "funcion",
+    "variable",
+    "compilador",
+    "framework",
+    "backend",
+    "frontend",
+    "interfaz",
+    "modulo",
+    "bug",
+    "debug",
+    "script",
+    "sintaxis",
+    "iteracion",
+    "condicional",
+    "libreria",
+    "protocolo",
+    "deploy",
+    "testing",
+    "version"
+]
