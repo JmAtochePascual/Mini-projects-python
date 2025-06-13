@@ -2,6 +2,7 @@ import random
 import re
 from data.words import words
 from data.images import images
+import os
 
 # choose a random word
 def choose_word() -> str:
@@ -85,6 +86,7 @@ def init():
       letter_valid = validate_letter(letter)
       
     if check_letter(word, letter):
+      os.system("cls")
       position_letter = check_position(word, letter)
       word_hidden = show_letter(word_hidden, letter, position_letter)
       print(images[counter])
@@ -97,6 +99,7 @@ def init():
       else:
         letter_valid = False
     else:
+      os.system("cls")
       attempts = reduce_attempts(attempts)
       letter_valid = False
       counter += 1
